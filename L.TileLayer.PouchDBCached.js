@@ -1,3 +1,5 @@
+import PouchDB from 'pouchdb'; // bug fix for use in TypeScript
+
 // HTMLCanvasElement.toBlob() polyfill
 // copy-pasted off https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob
 
