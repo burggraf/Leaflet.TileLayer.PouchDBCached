@@ -115,6 +115,7 @@ L.TileLayer.include({
 					!this.options.useOnlyCache
 				) {
 					// Tile is too old, try to refresh it
+					console.log('cacheMaxAge', this.options.cacheMaxAge);
 					console.log("Tile is too old: ", tileUrl);
 
 					if (this.options.saveToCache) {
